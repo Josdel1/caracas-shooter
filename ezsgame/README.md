@@ -66,18 +66,17 @@ while True:
 #
 
 # Documentacion (Aun no completa)
-## Pagina : [>> Ir a la documentacion](https://ezsgame-doc.ezsnova.repl.co/)
-## FigJam : [>> Ir a Figma](https://www.figma.com/file/EpJeUfdcxbwZSO5c4lr6rT/ezsgame-doc?node-id=1%3A2)
+## [>> Ir a la documentacion](https://ezsgame-doc.ezsnova.repl.co/)
 
 
 #
 #
 # Convicciones 
-- ## archivos :
+- # archivos :
     - ### Los archivos que usan ezsgame que son el archivo "principal", suelen llamarse:
-        ### demo (Recomendado)
-        ### main
-        ### game
-        ### app
+        ## demo.py (Recomendado)
+        ## main.py
+        ## game.py
+        ## app.py
 
 
