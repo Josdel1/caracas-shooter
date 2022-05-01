@@ -1,4 +1,5 @@
 from random import randint
+from tracemalloc import stop
 from ezsgame.all import *
 
 screen = Screen(show_fps=True, title="Space Invaders")
@@ -49,6 +50,7 @@ while True:
 
         if bullet.is_colliding(enemy, screen):
             if e_health == 0:
+                print("Player 1 won!")
                 quit()
             else:
                 e_health -= 1
@@ -60,6 +62,7 @@ while True:
 
         if e_bullet.is_colliding(player, screen):
             if health == 0:
+                print("Player 2 won!")
                 quit()
             else:
                 health -= 1
@@ -67,4 +70,3 @@ while True:
             
 
     screen.update()
-    
